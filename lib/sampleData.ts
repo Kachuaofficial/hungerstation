@@ -77,7 +77,7 @@ export const restaurants: Restaurant[] = [
     deliveryTime: "25 min",
     address: "Golghar",
     tags: ["Chicken", "American"],
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png",
+    image: "/brands/kfc.jpg",
     cover: "https://images.unsplash.com/photo-1513639776629-7b611d124754?q=80&w=1000",
   },
   {
@@ -150,49 +150,49 @@ export const restaurants: Restaurant[] = [
 ];
 
 // --- 2. MENUS DATA ---
-export const menus: Record<string, MenuItem[]> = {
-  // GORAKHPUR
-  "baatichokha": [
-    { id: "b1", name: "Special Thali", price: 250, desc: "2 Baati, Chokha, Dal, Ghee", image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=200" },
-    { id: "b2", name: "Sattu Paratha", price: 120, desc: "Stuffed with sattu", image: "https://images.unsplash.com/photo-1626074353765-5bf1d51cfc57?q=80&w=200" },
-  ],
-  "rangrezza": [
-    { id: "r1", name: "Paneer Butter Masala", price: 320, desc: "Creamy tomato gravy", image: "https://images.unsplash.com/photo-1563104306-6927593c6629?q=80&w=200" },
-    { id: "r2", name: "Chicken Biryani", price: 350, desc: "Lucknowi style", image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=200" },
-  ],
-  "zunoon": [
-    { id: "z1", name: "Hakka Noodles", price: 180, desc: "Veg noodles", image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=200" },
-    { id: "z2", name: "Chilli Chicken", price: 280, desc: "Spicy starter", image: "https://images.unsplash.com/photo-1615297926180-410766047333?q=80&w=200" },
-  ],
+// export const menus: Record<string, MenuItem[]> = {
+//   // GORAKHPUR
+//   "baatichokha": [
+//     { id: "b1", name: "Special Thali", price: 250, desc: "2 Baati, Chokha, Dal, Ghee", image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=200" },
+//     { id: "b2", name: "Sattu Paratha", price: 120, desc: "Stuffed with sattu", image: "https://images.unsplash.com/photo-1626074353765-5bf1d51cfc57?q=80&w=200" },
+//   ],
+//   "rangrezza": [
+//     { id: "r1", name: "Paneer Butter Masala", price: 320, desc: "Creamy tomato gravy", image: "https://images.unsplash.com/photo-1563104306-6927593c6629?q=80&w=200" },
+//     { id: "r2", name: "Chicken Biryani", price: 350, desc: "Lucknowi style", image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=200" },
+//   ],
+//   "zunoon": [
+//     { id: "z1", name: "Hakka Noodles", price: 180, desc: "Veg noodles", image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=200" },
+//     { id: "z2", name: "Chilli Chicken", price: 280, desc: "Spicy starter", image: "https://images.unsplash.com/photo-1615297926180-410766047333?q=80&w=200" },
+//   ],
 
-  // BRANDS
-  "dominos": [
-    { id: "d1", name: "Margherita", price: 200, desc: "Classic Cheese", image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=200" },
-    { id: "d2", name: "Peppy Paneer", price: 280, desc: "Spicy Paneer", image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=200" },
-    { id: "d3", name: "Garlic Bread", price: 110, desc: "Stuffed Garlic Bread", image: "https://images.unsplash.com/photo-1573140247632-f84660f67627?q=80&w=200" },
-  ],
-  "kfc": [
-    { id: "k1", name: "Zinger Burger", price: 180, desc: "Crispy Chicken", image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=200" },
-    { id: "k2", name: "Hot Wings (4pc)", price: 150, desc: "Spicy Wings", image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=200" },
-  ],
-  "mcdonalds": [
-    { id: "mc1", name: "Big Mac", price: 220, desc: "Double Patty", image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=200" },
-    { id: "mc2", name: "McFlurry", price: 110, desc: "Oreo Dessert", image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=200" },
-  ],
-  "burgerking": [
-    { id: "bk1", name: "Whopper", price: 199, desc: "Flame Grilled", image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=200" },
-  ],
-  "subway": [
-    { id: "s1", name: "Veggie Delite", price: 150, desc: "Fresh Subs", image: "https://images.unsplash.com/photo-1626074353765-5bf1d51cfc57?q=80&w=200" },
-  ],
+//   // BRANDS
+//   "dominos": [
+//     { id: "d1", name: "Margherita", price: 200, desc: "Classic Cheese", image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=200" },
+//     { id: "d2", name: "Peppy Paneer", price: 280, desc: "Spicy Paneer", image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=200" },
+//     { id: "d3", name: "Garlic Bread", price: 110, desc: "Stuffed Garlic Bread", image: "https://images.unsplash.com/photo-1573140247632-f84660f67627?q=80&w=200" },
+//   ],
+//   "kfc": [
+//     { id: "k1", name: "Zinger Burger", price: 180, desc: "Crispy Chicken", image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=200" },
+//     { id: "k2", name: "Hot Wings (4pc)", price: 150, desc: "Spicy Wings", image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=200" },
+//   ],
+//   "mcdonalds": [
+//     { id: "mc1", name: "Big Mac", price: 220, desc: "Double Patty", image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=200" },
+//     { id: "mc2", name: "McFlurry", price: 110, desc: "Oreo Dessert", image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=200" },
+//   ],
+//   "burgerking": [
+//     { id: "bk1", name: "Whopper", price: 199, desc: "Flame Grilled", image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=200" },
+//   ],
+//   "subway": [
+//     { id: "s1", name: "Veggie Delite", price: 150, desc: "Fresh Subs", image: "https://images.unsplash.com/photo-1626074353765-5bf1d51cfc57?q=80&w=200" },
+//   ],
 
-  // DUMMY
-  "1": [
-    { id: "m1", name: "Butter Chicken", price: 220, desc: "Rich Gravy", image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=200" },
-    { id: "m2", name: "Roti", price: 20, desc: "Tandoori Roti", image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=200" }
-  ],
-  "2": [
-    { id: "m3", name: "Alfredo Pasta", price: 250, desc: "White Sauce", image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=200" }
-  ],
-  // ... (You can add more if needed, but this covers all linked restaurants)
-};
+//   // DUMMY
+//   "1": [
+//     { id: "m1", name: "Butter Chicken", price: 220, desc: "Rich Gravy", image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=200" },
+//     { id: "m2", name: "Roti", price: 20, desc: "Tandoori Roti", image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=200" }
+//   ],
+//   "2": [
+//     { id: "m3", name: "Alfredo Pasta", price: 250, desc: "White Sauce", image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=200" }
+//   ],
+//   // ... (You can add more if needed, but this covers all linked restaurants)
+// };

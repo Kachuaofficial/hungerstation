@@ -12,8 +12,13 @@ const nextConfig: NextConfig = {
         hostname: "lh3.googleusercontent.com",
       },
       {
-        protocol: "https",
-        hostname: "upload.wikimedia.org",
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org', // For brand logos
+      },
+      {
+        protocol: 'https',
+        hostname: 'api.dicebear.com', // For brand logos
+        
       },
     ],
   },
